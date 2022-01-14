@@ -85,14 +85,14 @@ main .copyright span {
 }
 
 .sidebar-top .logo {
-    width: 2.8rem;
-    margin: 0 0.8rem;
+    width: 3.6rem;
+    margin: 0 0.1rem;
 }
 
 .sidebar-top h3 {
-    padding-left: 0.5rem;
+    padding-left: 0.2rem;
     font-weight: 600;
-    font-size: 1.15rem;
+    font-size: 1.4rem;
 }
 
 .shrink-btn {
