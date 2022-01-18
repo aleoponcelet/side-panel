@@ -297,7 +297,7 @@ nav:hover .shrink-btn,
     display: flex;
     height: 40px;
     min-width: 2.4rem;
-    background-color: var(--main-color-dark);
+    background-color: var(--main-color-light);
     color: var(--text-color);
     align-items: center;
     justify-content: center;
