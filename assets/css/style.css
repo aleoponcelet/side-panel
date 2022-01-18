@@ -301,7 +301,7 @@ nav:hover .shrink-btn,
   display: flex;
   height: 40px;
   min-width: 2.4rem;
-  background-color: var(--navbar-light);
+  background-color: #151515;
   color: var(--text-color);
   align-items: center;
   justify-content: center;
