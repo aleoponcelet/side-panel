@@ -143,6 +143,7 @@ nav:hover .shrink-btn,
 
 .search input {
   height: 100%;
+  width: 95%;
   border: none;
   background: none;
   outline: none;
