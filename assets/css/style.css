@@ -8,7 +8,7 @@
 }
 
 :root {
-  --accent: #4477c4;
+  --accent: #52cc4e;
   --navbar-dark: #1e1e1e;
   --navbar-light: #2e2e2e;
   --text-color: #cdd5e7;
@@ -211,7 +211,7 @@ nav:hover .shrink-btn,
 }
 
 .active-tab {
-  width: 100%;
+  width: 4.8px;
   height: 53px;
   background-color: var(--accent);
   border-radius: 10px;
