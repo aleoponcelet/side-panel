@@ -9,7 +9,7 @@ $(function() {
     $pageWrap.height($pageWrap.height());
     baseHeight = $pageWrap.height() - $mainContent.height();
     
-    $("nav").delegate("a", "click", function() {
+    $("sidebar").delegate("a", "click", function() {
         window.location.hash = $(this).attr("href");
         return false;
     });
@@ -28,8 +28,8 @@ $(function() {
                                 height: baseHeight + $mainContent.height() + "px"
                             });
                         });
-                        $("nav a").removeClass("current");
-                        $("nav a[href="+newHash+"]").addClass("current");
+                        $("sidebar a").removeClass("current");
+                        $("sidebar a[href="+newHash+"]").addClass("current");
                     });
                 });
         };

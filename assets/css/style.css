@@ -35,7 +35,7 @@ ul {
   list-style: none;
 }
 
-nav {
+sidebar {
   position: sticky;
   top: 0;
   left: 0;
@@ -52,7 +52,7 @@ nav {
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
-nav::before {
+sidebar::before {
   content: "";
   position: absolute;
   width: 2rem;
@@ -132,7 +132,7 @@ main .copyright span {
   color: #000;
 }
 
-nav:hover .shrink-btn,
+sidebar:hover .shrink-btn,
 .shrink-btn.hovered {
   transform: translateY(-50%) translateX(0px);
   opacity: 1;
@@ -368,7 +368,7 @@ nav:hover .shrink-btn,
   transition: opacity 0.3s 0.2s;
 }
 
-body.shrink nav {
+body.shrink sidebar {
   width: 5.4rem;
 }
 
