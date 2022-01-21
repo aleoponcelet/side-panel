@@ -9,7 +9,7 @@ $(function() {
     $pageWrap.height($pageWrap.height());
     baseHeight = $pageWrap.height() - $mainContent.height();
     
-    $("sidebar").delegate("a", "click", function() {
+    $("sdynamic").delegate("a", "click", function() {
         window.location.hash = $(this).attr("href");
         return false;
     });
@@ -28,8 +28,8 @@ $(function() {
                                 height: baseHeight + $mainContent.height() + "px"
                             });
                         });
-                        $("sidebar a").removeClass("current");
-                        $("sidebar a[href="+newHash+"]").addClass("current");
+                        $("sdynamic a").removeClass("current");
+                        $("sdynamic a[href="+newHash+"]").addClass("current");
                     });
                 });
         };
