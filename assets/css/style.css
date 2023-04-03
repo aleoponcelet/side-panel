@@ -1,25 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
 *,
 *::before,
 *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-weight: 520;
 }
 
 :root {
   --accent: #6fb1bd;
   --navbar-dark: #1c1c1c;
   --navbar-light: #363636;
-  --text-color: #cdd5e7;
+  --text-color: #888888;
   --cont-dark: #ebebeb;
   --cont-light: #ffffff;
   --backgound-dark: #161616;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   overflow-x: hidden;
   background-color: var(--backgound-dark);
   min-height: 100vh;
@@ -180,8 +179,7 @@ main .copyright span {
 
 .sidebar-links a {
   color: var(--text-color);
-  font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 14px;
   display: flex;
   align-items: center;
   height: 53px;
