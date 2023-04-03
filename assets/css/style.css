@@ -40,7 +40,7 @@ ul {
   left: 0;
   height: 100vh;
   background-color: var(--navbar-dark);
-  width: 16rem;
+  width: 17.5rem;
   padding: 1.8rem 0.85rem;
   color: #fff;
   display: flex;
@@ -229,10 +229,8 @@ main .copyright span {
   background-color: #282828;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  position: absolute;
-  top: 2.5px;
-  left: 0;
   transition: top 0.3s;
+  position: absolute;
 }
 
 .sidebar-links h4 {
