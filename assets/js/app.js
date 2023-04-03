@@ -24,7 +24,7 @@ shrink_btn.addEventListener("click", () => {
 // });
 
 function moveActiveTab() {
-  let topPosition = activeIndex * 58 + 2.5;
+  let topPosition = activeIndex *  47 + 1;
 
   if (activeIndex > 5) {
     topPosition += shortcuts.clientHeight;
