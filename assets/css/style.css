@@ -107,7 +107,7 @@ main .copyright span {
   top: 50%;
   height: 27px;
   padding: 0 0.3rem;
-  background-color: #75592e;
+  background-color: #47443f;
   border-radius: 4px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
@@ -127,7 +127,8 @@ main .copyright span {
 }
 
 .shrink-btn:hover {
-  color: #e4c87d;
+  color: #ffffff;
+  background-color: #3d3d3d;
 }
 
 .sidebar:hover .shrink-btn,
