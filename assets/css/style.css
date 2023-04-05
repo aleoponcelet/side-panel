@@ -180,7 +180,7 @@ main .copyright span {
 
 .sidebar-links a {
   color: var(--text-color);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.5em;
   font-style: normal;
@@ -299,13 +299,13 @@ main .copyright span {
 
 .admin-info h3 {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1;
 }
 
 .admin-info h5 {
   font-weight: 400;
-  font-size: 0.83rem;
+  font-size: 14px;
   color: var(--text-color);
   margin-top: 0.3rem;
   margin-left: 0.2rem;
